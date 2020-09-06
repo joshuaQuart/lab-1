@@ -1,16 +1,135 @@
     <!DOCTYPE html>
+    <html lang="en-us">
     <head>
-        <meta charset ="utf-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1">
         <title>Joshua Quartey's Portfolio</title>
+        <style>
+            body, html {
+                 height: 100%;
+                 margin: 0;
+            }
+
+            .bg {
+            background-image: url("images/glasses.jpg");
+            height: 100%; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+
+            #nav-menu ul {
+                margin: 0px;
+                padding: 5px;
+                background-color:rgb(97, 97, 97);
+            }
+
+
+            #nav-menu li{
+                margin: 5px;
+                display: inline-block;
+            }
+            #nav-menu li a {
+                color: rgb(0, 0, 0);
+                text-align: center;
+                padding: 10px;
+                text-decoration: none;
+            }
+
+            
+            #nav-menu li a:hover {
+                background-color: #858585;
+                color:rgb(202, 202, 202);
+            }
+
+            #head{
+                font-size: large;
+                text-align:center;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color :rgb(78, 132, 202);
+            }
+
+            #bio{
+                width:60%;
+                margin: auto;
+                color: antiquewhite;
+               
+            }
+
+            #footer{
+                position: fixed;
+                bottom: 0;
+                background-color: rgb(10, 10, 10);
+                color:gray;
+                font-size:15px;
+                text-align:center;
+                height:140px;
+                width:100%;
+                padding:0px;
+            }
+            #linkdn a{
+                text-decoration:none;
+                 color: gray;"
+            }
+
+            #linkdn a:hover{
+                
+                color:rgb(235, 235, 235);
+            }
+
+
+        </style>
     </head>
     <body>
-        <h3>Joshua Quartey</h3>
-        <p>
-            Hi I'm Joshua, I'm from Ghana which is also where I'm currently living. 
-            I'm a Computer Science major with interersts in Robotics and Artificial
-             Intelligence. I'm a junior at Ashesi University and hopefully
-            i'll be graduating in 2022.
-        </p>
+        <div class="bg">
+            <div id="nav-menu">
+                <ul style="list-style-type:none;">
+                    <li class="men-item"><a href="index.html"><strong>Home</strong></a></li>
+                    <li class="men-item"><a href="skills.html">Skills</a></li>
+                    <li class="men-item"><a href="educattion.html">Education</a></li>
+                    <li class="men-item"><a href="work.html">Work Experience</a></li>
+                    <li class="men-item"><a href="projects.html">Projects</a></li>
+                    <li class="men-item"><a href="interests.html">Interersts</a></li>
+                </ul>
+            </div>
+
+            <div id="head">
+                <h2>Welcome to my page</h2>
+            </div>
+
+            <div id="bio">
+                <h3>About me</h3>
+                <p>
+                    Hi I'm Joshua, I'm from Ghana which is also where I live. 
+                    I'm a Computer Science major with interersts in Robotics and Artificial
+                    Intelligence. I'm a junior at Ashesi University and hopefully
+                    I'll be graduating in 2022. 
+
+                    You can reach me on Linkedin by clicking the link below
+                </p>
+                
+                <p>
+                    <img src="images/linkdn_logo.png" alt="Ashesi logo" height="20px"
+                    style="float:left; margin:0px 5px 0px 0px; display:inline-block;">
+                    Linkedin:<a style="text-decoration:none; color: antiquewhite;" href="https://www.linkedin.com/in/joshua-quartey">https://www.linkedin.com/in/joshua-quartey</a>
+                </p>
+
+            </div>
+
+            <div id="footer">
+                <div style="width:90%; margin:auto;"> 
+                    <p>Feel free to contact me via email at joshua.quartey@gmail.com or</p>
+                    <p id="linkdn" > on Linkedin at         
+                        <a  href="https://www.linkedin.com/in/joshua-quartey">https://www.linkedin.com/in/joshua-quartey</a>
+                    </p>
+                    <p>Copyright &copy; 2020 Joshua Quartey &ThickSpace; </p>
+                    <p>Accra, Ghana</p>
+                </div>
+            </div>
+
+
+        </div>
+        
+       
     </body>
 
 
